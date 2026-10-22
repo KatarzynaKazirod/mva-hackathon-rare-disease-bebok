@@ -1,0 +1,13 @@
+target	ensembl	required_direction	n_drug_rows	n_approved	drugs	note
+ESPL1	ENSG00000135476	decrease	0	0		separaza - sam enzym tnacy kohezyne
+PTTG1	ENSG00000164611	increase	0	0		sekuryna - inhibitor separazy; ma jej byc WIECEJ
+CDK1	ENSG00000170312	increase_or_neutral	12	0	ZOTIRACICLIB|CHEMBL1944698|PHASE_1_2|INHIBITOR; ALVOCIDIB|CHEMBL428690|PHASE_3|INHIBITOR; RGB-286638|CHEMBL3545083|PHASE_1|INHIBITOR; PHA-793887|CHEMBL1230607|PHASE_1|INHIBITOR; AG-24322|CHEMBL3545420|PHASE_1|INHIBITOR; AZD-5438|CHEMBL488436|PHASE_1|INHIBITOR; RG-547|CHEMBL384304|PHASE_1|INHIBITOR; RONICICLIB|CHEMBL4442620|PHASE_2|INHIBITOR; AT-7519|CHEMBL445813|PHASE_2|INHIBITOR; DINACICLIB|CHEMBL2103840|PHASE_3|INHIBITOR; MILCICLIB|CHEMBL564829|PHASE_2|INHIBITOR; SELICICLIB|CHEMBL14762|PHASE_2|INHIBITOR	cyklina B-CDK1 wiaze i hamuje separaze; hamowanie CDK1 ja UWALNIA
+CCNB1	ENSG00000134057	increase_or_neutral	0	0		cyklina B - partner hamujacy separaze
+SGO1	ENSG00000129810	increase	0	0		chroni kohezyne centromerowa przed sciecicem
+SGO2	ENSG00000163535	increase	0	0		ochrona kohezyny
+PPP2R5A	ENSG00000066027	increase	0	0		PP2A-B56 - ramie fosfatazy chroniace kohezyne
+PPP2R5B	ENSG00000068971	increase	0	0		PP2A-B56 - ramie fosfatazy
+CDCA5	ENSG00000146670	increase	0	0		sororyna - stabilizuje kohezyne
+WAPL	ENSG00000062650	decrease	0	0		usuwa kohezyne w profazie; ma go byc MNIEJ
+RAD21	ENSG00000164754	increase	0	0		podjednostka kohezyny ciета przez separaze
+STAG2	ENSG00000101972	increase	0	0		podjednostka kohezyny

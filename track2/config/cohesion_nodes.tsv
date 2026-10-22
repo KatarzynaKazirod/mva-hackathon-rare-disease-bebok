@@ -1,0 +1,18 @@
+node	role
+ESPL1	separase - the protease that cleaves cohesin; its premature action IS the phenotype
+SGO1	shugoshin - recruits PP2A-B56 to protect centromeric cohesin
+SGO2	shugoshin 2
+WAPL	cohesin release factor (prophase pathway)
+RAD21	cohesin kleisin subunit
+SMC1A	cohesin ATPase subunit
+SMC3	cohesin ATPase subunit
+STAG1	cohesin SA1 subunit
+STAG2	cohesin SA2 subunit
+PDS5A	cohesin regulator
+PDS5B	cohesin regulator
+CDCA5	sororin - antagonises WAPL
+NIPBL	cohesin loader
+PPP2R5A	PP2A B56 regulatory subunit
+PPP2R5B	PP2A B56 regulatory subunit
+BUB1	kinase; phosphorylates H2A-T120 to recruit Sgo1 (NOT a BUBR1 function)
+CDK1	phosphorylates cohesin regulators; mitotic entry

@@ -1,0 +1,8 @@
+module	start	end	source	uniprot_verified	function	hit_by_p.Leu737Ter	hit_by_p.Asn1002Lys
+BUB1 N-terminal (TPR)	62	226	UniProt O60566 Domain	yes	KNL1 binding, kinetochore recruitment	retained	no
+KNL1-interaction region	152	185	UniProt O60566 Region	yes	necessary for KNL1 interaction	retained	no
+D-box	224	232	UniProt O60566 Motif	yes	APC/C degron	retained	no
+KARD phosphosites S665/S670/S676	665	676	UniProt O60566 Modified residue (S676 by PLK1)	yes	PLK1/CDK1-phosphorylated; recruits PP2A-B56 to oppose Aurora B	retained	no
+Protein kinase (pseudokinase) domain	766	1050	UniProt O60566 Domain	yes	catalytically dead in humans; protein stability, CENP-E interaction	LOST ENTIRELY - stop at 737 precedes domain start 766	ALTERED - residue 1002 lies inside the domain
+PLK1 phosphosite T1008	1008	1008	UniProt O60566 Modified residue	yes	PLK1-phosphorylated threonine	lost	6 residues from the missense
+KEN1 / ABBA / KEN2 / GLEBS			review literature only	NO - not annotated in UniProt O60566	CDC20 inhibition inside MCC; BUB3 binding	retained if positions as reviewed	no

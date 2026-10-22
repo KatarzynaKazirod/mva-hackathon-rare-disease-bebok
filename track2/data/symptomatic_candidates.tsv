@@ -1,0 +1,12 @@
+hpo_feature	drug	chembl_id	approved	registered_indication_match	mechanism	black_box	verdict
+Nephrocalcinosis	POTASSIUM CITRATE	CHEMBL3989822	yes	Calcium nephrolithiasis; renal tubular acidosis; Uric acid nephrolithiasis	urinary alkalinisation; inhibits calcium crystallisation	none	STRONGEST - indication class matches directly
+Nephrocalcinosis	HYDROCHLOROTHIAZIDE	CHEMBL435	yes	NONE - listed indications are cardiovascular only	thiazide-sensitive NaCl cotransporter inhibitor; raises distal Ca reabsorption, lowers calciuria	none	mechanism registered, hypocalciuric INDICATION off-label; established paediatric practice
+Nephrocalcinosis	CHLORTHALIDONE	CHEMBL1055	yes	NONE - cardiovascular and renal, not hypercalciuria	thiazide-sensitive NaCl cotransporter inhibitor	none	alternative thiazide, same off-label status
+Skeletal muscle atrophy	GIVINOSTAT	CHEMBL1213492	yes	Duchenne muscular dystrophy	histone deacetylase inhibitor	none	only non-glucocorticoid muscle-directed option here, so it escapes the objections that disqualify deflazacort; NOT a unique HPO match - 7 of the rows here match by registered indication, 2 by mechanism only. COLLIDES with GSE86928 - HDAC inhibition arrests the cycle and lowers BUB1B 2.4x
+Skeletal muscle atrophy	DEFLAZACORT	CHEMBL1201891	yes	autosomal recessive limb-girdle muscular dystrophy type 2B; muscular dystrophy; neuromuscular disease caused by qualitative or quantitative defects of dysferlin	glucocorticoid receptor agonist	none	REJECT - immunosuppressive under cancer predisposition, growth-suppressive in a child with growth failure
+Failure to thrive	CYPROHEPTADINE	CHEMBL516	yes	malnutrition	histamine H1 receptor antagonist; appetite stimulant	none	weak evidence base in children; nutritional support comes first
+Failure to thrive	MEGESTROL ACETATE	CHEMBL1201139	yes	Cachexia	progesterone receptor agonist	none	hormonal, adrenal suppression risk - hold
+Short stature	SOMATROPIN	CHEMBL1201621	yes	Turner syndrome; growth delay due to insulin-like growth factor type 1 deficiency; growth	growth hormone receptor agonist	none	CONTRAINDICATED - growth-promoting in a cancer-predisposition syndrome with an active sarcoma
+Lipodystrophy (mouse model, not yet present)	METRELEPTIN	CHEMBL2107857	yes	generalized lipodystrophy; lipodystrophy; partial lipodystrophy	leptin receptor agonist	Black Box Warning	pre-emptive; revisit only if lipodystrophy develops
+Small for gestational age	-	-	-	-	-	-	historical finding; nothing to treat
+Premature birth	-	-	-	-	-	-	historical finding; nothing to treat

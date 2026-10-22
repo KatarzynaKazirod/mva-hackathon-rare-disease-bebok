@@ -1,0 +1,32 @@
+target	drug_id	drug	action_type	drug_effect	context	required	max_stage_drug	reject_reason
+AURKA	CHEMBL1908397	KW-2449	INHIBITOR	decrease	somatic	neutral	PHASE_1	AURKA requires neutral in somatic tissue; INHIBITOR produces decrease
+AURKA	CHEMBL1967878	CENISERTIB	INHIBITOR	decrease	somatic	neutral	PHASE_1	AURKA requires neutral in somatic tissue; INHIBITOR produces decrease
+AURKA	CHEMBL1980297	ILORASERTIB	INHIBITOR	decrease	somatic	neutral	PHASE_2	AURKA requires neutral in somatic tissue; INHIBITOR produces decrease
+AURKA	CHEMBL1980391	RG-1530	INHIBITOR	decrease	somatic	neutral	PHASE_1	AURKA requires neutral in somatic tissue; INHIBITOR produces decrease
+AURKA	CHEMBL2140408	AMG-900	INHIBITOR	decrease	somatic	neutral	PHASE_1	AURKA requires neutral in somatic tissue; INHIBITOR produces decrease
+AURKA	CHEMBL259084	MLN-8054	INHIBITOR	decrease	somatic	neutral	PHASE_1	AURKA requires neutral in somatic tissue; INHIBITOR produces decrease
+AURKA	CHEMBL3545327	TTP-607	INHIBITOR	decrease	somatic	neutral	PHASE_1	AURKA requires neutral in somatic tissue; INHIBITOR produces decrease
+AURKA	CHEMBL3545378	MK-6592	INHIBITOR	decrease	somatic	neutral	PHASE_1	AURKA requires neutral in somatic tissue; INHIBITOR produces decrease
+AURKA	CHEMBL3600873	MK-5108	INHIBITOR	decrease	somatic	neutral	PHASE_1	AURKA requires neutral in somatic tissue; INHIBITOR produces decrease
+AURKA	CHEMBL3692206	TAS-119	INHIBITOR	decrease	somatic	neutral	PHASE_1	AURKA requires neutral in somatic tissue; INHIBITOR produces decrease
+AURKA	CHEMBL402548	DANUSERTIB	INHIBITOR	decrease	somatic	neutral	PHASE_2	AURKA requires neutral in somatic tissue; INHIBITOR produces decrease
+AURKA	CHEMBL4289017	PF-03814735	INHIBITOR	decrease	somatic	neutral	PHASE_1	AURKA requires neutral in somatic tissue; INHIBITOR produces decrease
+AURKA	CHEMBL482767	SNS-314	INHIBITOR	decrease	somatic	neutral	PHASE_1	AURKA requires neutral in somatic tissue; INHIBITOR produces decrease
+AURKA	CHEMBL482967	CYC-116	INHIBITOR	decrease	somatic	neutral	PHASE_1	AURKA requires neutral in somatic tissue; INHIBITOR produces decrease
+AURKA	CHEMBL482968	ENMD-2076	INHIBITOR	decrease	somatic	neutral	PHASE_2	AURKA requires neutral in somatic tissue; INHIBITOR produces decrease
+AURKA	CHEMBL483158	ALISERTIB	INHIBITOR	decrease	somatic	neutral	PHASE_3	AURKA requires neutral in somatic tissue; INHIBITOR produces decrease
+AURKA	CHEMBL495727	AT-9283	INHIBITOR	decrease	somatic	neutral	PHASE_3	AURKA requires neutral in somatic tissue; INHIBITOR produces decrease
+AURKA	CHEMBL52885	ENMD-981693	INHIBITOR	decrease	somatic	neutral	PHASE_2	AURKA requires neutral in somatic tissue; INHIBITOR produces decrease
+AURKA	CHEMBL572878	TOZASERTIB	INHIBITOR	decrease	somatic	neutral	PHASE_2	AURKA requires neutral in somatic tissue; INHIBITOR produces decrease
+BIRC5	CHEMBL4650424	SVN53-67/M57-KLH PEPTIDE VACCINE	VACCINE ANTIGEN	increase	somatic	decrease	PHASE_2	BIRC5 requires decrease in somatic tissue; VACCINE ANTIGEN produces increase
+PLK1	CHEMBL1233528	VOLASERTIB	INHIBITOR	decrease	somatic	increase_or_neutral	PHASE_3	PLK1 requires increase_or_neutral in somatic tissue; INHIBITOR produces decrease
+PLK1	CHEMBL1738758	ONVANSERTIB	INHIBITOR	decrease	somatic	increase_or_neutral	PHASE_2	PLK1 requires increase_or_neutral in somatic tissue; INHIBITOR produces decrease
+PLK1	CHEMBL1908394	GSK-461364	INHIBITOR	decrease	somatic	increase_or_neutral	PHASE_1	PLK1 requires increase_or_neutral in somatic tissue; INHIBITOR produces decrease
+PLK1	CHEMBL2392545	TAK-960	INHIBITOR	decrease	somatic	increase_or_neutral	PHASE_1	PLK1 requires increase_or_neutral in somatic tissue; INHIBITOR produces decrease
+PLK1	CHEMBL3545354	CAFUSERTIB	INHIBITOR	decrease	somatic	increase_or_neutral	PHASE_1	PLK1 requires increase_or_neutral in somatic tissue; INHIBITOR produces decrease
+PLK1	CHEMBL3991927	HMN-214	INHIBITOR	decrease	somatic	increase_or_neutral	PHASE_1	PLK1 requires increase_or_neutral in somatic tissue; INHIBITOR produces decrease
+PLK1	CHEMBL513909	BI-2536	INHIBITOR	decrease	somatic	increase_or_neutral	PHASE_2	PLK1 requires increase_or_neutral in somatic tissue; INHIBITOR produces decrease
+PLK1	CHEMBL5314387	MK-1496	INHIBITOR	decrease	somatic	increase_or_neutral	PHASE_1	PLK1 requires increase_or_neutral in somatic tissue; INHIBITOR produces decrease
+TTK	CHEMBL4303241	BAY-1161909	INHIBITOR	decrease	somatic	increase_or_neutral	PHASE_1	TTK requires increase_or_neutral in somatic tissue; INHIBITOR produces decrease
+TTK	CHEMBL4456085	BAY-1217389	INHIBITOR	decrease	somatic	increase_or_neutral	PHASE_1	TTK requires increase_or_neutral in somatic tissue; INHIBITOR produces decrease
+BIRC5	CHEMBL4650424	SVN53-67/M57-KLH PEPTIDE VACCINE	VACCINE ANTIGEN	increase	tumour	decrease	PHASE_2	BIRC5 requires decrease in tumour tissue; VACCINE ANTIGEN produces increase

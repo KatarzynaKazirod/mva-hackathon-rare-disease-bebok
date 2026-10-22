@@ -1,0 +1,5 @@
+model	pmid	readout	reference_threshold
+patient lymphoblastoid lines	15475955;16411201	BUBR1 western blot; premature chromatid separation rate	Matsuura 2006: >50% reduction in BUBR1
+mouse allelic series X753 / L1002P / H	31738183	survival, MVA phenotypes, total BUBR1	H/L1002P viable; X753/L1002P and H/X753 died prematurely
+TALEN-edited human cells	24344301	BUB1B transcript level, PCS, aneuploidy	causality demonstrated by editing
+heterozygous carrier lymphocytes	42434306	PCS by G-banding + centromere FISH; RT-PCR; BUBR1 western	PCS elevated vs 20 healthy controls

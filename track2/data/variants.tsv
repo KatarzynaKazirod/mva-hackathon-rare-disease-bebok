@@ -1,0 +1,3 @@
+gene	hgvs_c	hgvs_p	grch38	consequence	nmd	clinvar	clinvar_stars	acmg_criteria	acmg_points	classification
+BUB1B	NM_001211.6:c.2210T>G	p.Leu737Ter	15:40209701	stop_gained	NMD-competent (8,861 bp upstream of the last junction)	P/LP	2	PVS1; PM2_supporting; PM3_supporting	10	Pathogenic
+BUB1B	NM_001211.6:c.3006T>G	p.Asn1002Lys	15:40220612	missense		not present	0	PM2_supporting; PM3_supporting	2	Uncertain significance

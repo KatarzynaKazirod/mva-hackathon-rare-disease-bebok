@@ -1,0 +1,11 @@
+# MVA-related genes that HPO cannot supply, added by hand.
+# Columns: gene, source, note. Lines starting with # are comments.
+# Read by download_refs.py (--extra-genes, default config/mva_genes_extra.tsv). Without
+# this file the script only warns and the checklist comes out one gene short.
+#
+# This file is hand-curated, so it is the one part of the reference set that no download
+# can verify. Every row must carry a checkable identifier in `source` - a PMID, a DOI or a
+# database accession. "from the literature" is not a source.
+gene	source	note
+CEP192	PMID:37981762	Biallelic CEP192 (c.1912C>T p.His638Tyr; c.5750A>G p.Asn1917Ser) in MVA syndrome with tetraploidy. OMIM 616426 lists CEP192 with no clear disease link, which is why HPO has no gene-phenotype annotation for it.
+MAD2L1BP	PMID:37796616	Homozygous MAD2L1BP (p31comet) nonsense R253* in two siblings with microcephaly, epileptic encephalopathy and juvenile granulosa cell tumours; patient cells showed high-grade mosaic variegated aneuploidy. A second homozygous truncation R227* was found in a further patient. JCI Insight 2023;8(22):e170079. Too recent for an OMIM MVA number, so HPO carries no MVA annotation for this gene.

@@ -1,0 +1,62 @@
+{
+  "tools": "bcftools 1.24",
+  "dispatch": "/opt/homebrew/bin/bcftools",
+  "regions": "genome-wide",
+  "source_normalisation": "norm -m -any -f",
+  "n_records": 4962060,
+  "fill": {
+    "BCSQ": {
+      "present": 3385832,
+      "total": 4962060,
+      "fraction": 0.6823
+    },
+    "CLNSIG": {
+      "present": 43952,
+      "total": 4962060,
+      "fraction": 0.0089
+    },
+    "gnomAD_AF": {
+      "present": 4604130,
+      "total": 4962060,
+      "fraction": 0.9279
+    }
+  },
+  "sample": {
+    "records_in": 4895719,
+    "records_out": 4962060,
+    "ref_mismatch_dropped": 0
+  },
+  "clinvar_fields": [
+    "CLNSIG",
+    "CLNDN",
+    "CLNREVSTAT",
+    "ALLELEID"
+  ],
+  "reference_provenance": {
+    "clinvar": {
+      "file": "clinvar.vcf.gz",
+      "size_bytes": 200437060,
+      "fileDate": "2026-10-11",
+      "source": "ClinVar",
+      "reference": "GRCh38"
+    },
+    "gnomad": {
+      "file": "af-only-gnomad.hg38.ensembl.vcf.gz",
+      "size_bytes": 3128088326,
+      "reference": "file:///Users/shlee/Documents/ref/hg38/Homo_sapiens_assembly38.fasta"
+    },
+    "gff3": {
+      "file": "Homo_sapiens.GRCh38.116.chr.gff3.gz",
+      "size_bytes": 108211474
+    },
+    "fasta": {
+      "file": "GRCh38.fa",
+      "size_bytes": 3151425851
+    }
+  },
+  "caveats": [
+    "gnomAD af-only carries GLOBAL AF only: no popmax/grpmax and no nhomalt, so BA1/BS1/PM2 cannot be evaluated from it alone.",
+    "A missing gnomAD_AF means absent from THIS resource, not AF=0 - the resource is a liftover of an older gnomAD release and its non-coding coverage is thinner than the current genomes.",
+    "bcftools csq emits no HGVS and has no NMD-escape logic; both are done by hand for the final candidates."
+  ]
+}

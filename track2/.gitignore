@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[oc]
+.venv/
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Cached downloads. GEO supplementary matrices are large and re-fetchable; the
+# scripts take an explicit --counts path so nothing here is needed to reproduce a
+# result, only to avoid downloading twice.
+geo_cache/
+
+# Scratch output from `run_pipeline.py --mode check`, which writes regenerated
+# tables to a temporary directory and diffs them against the committed ones.
+track2-check-*/
+
+# Competitive-review material. These describe OTHER teams' repositories by name and
+# are working notes for this submission, not content of it. Kept locally on purpose:
+# a submission repository should not carry a named assessment of the competition.
+overlap.tsv
+track2_nakladanie_kandydatow.md
+track2_przeglad.md
+track2_recenzja.md
+review_verdicts.md

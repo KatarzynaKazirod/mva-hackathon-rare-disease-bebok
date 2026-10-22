@@ -1,0 +1,10 @@
+disease_id	disease	xrefs	n_drugs	n_approved	drugs
+MONDO_0000141	mosaic variegated aneuploidy syndrome	OMIMPS:257300; Orphanet:1052	0	0	none
+MONDO_0009759	mosaic variegated aneuploidy syndrome 1	OMIM:257300	0	0	none
+MONDO_0013582	mosaic variegated aneuploidy syndrome 2	OMIM:614114	0	0	none
+MONDO_0054736	mosaic variegated aneuploidy syndrome 3	OMIM:617598	0	0	none
+MONDO_0859329	mosaic variegated aneuploidy syndrome 4	OMIM:620153	0	0	none
+MONDO_0859346	mosaic variegated aneuploidy syndrome 7 with inflammation and tumor predisposition	OMIM:620189	0	0	none
+MONDO_0859575	Atelis syndrome 1	OMIM:620184	0	0	none
+MONDO_0859576	Atelis syndrome 2	OMIM:620185	0	0	none
+EFO_0009077	premature chromatid separation trait	OMIM:176430	0	0	none

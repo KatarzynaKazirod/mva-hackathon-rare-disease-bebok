@@ -1,0 +1,42 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Data, reference files and outputs
+PATIENT_DATA/
+refs/
+
+# results/ holds patient-derived material and stays out of version control. Note the form:
+# a directory excluded with a trailing slash ("results/") can NOT have individual files
+# re-included, because git never descends into it - hence "results/*", which is what makes
+# an explicit negation possible at all should one ever be needed.
+results/*
+
+# The child's phenotype. config/ is tracked, so these need naming explicitly;
+config/patient_hpo.txt
+config/family_history.txt
+*.parquet
+*.vcf
+*.vcf.gz
+*.vcf.gz.tbi
+*.bcf
+*.bcf.csi
+*.cram
+*.crai
+*.bam
+*.bai
+
+# python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+# macOS
+.DS_Store

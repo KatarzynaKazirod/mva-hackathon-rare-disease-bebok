@@ -1,0 +1,12 @@
+node	layer	wt_role	defect_direction	required_normal	required_tumour	evidence_pmid
+BUB1B	SAC signal + error correction	generates the MCC inhibitory signal; KARD recruits PP2A-B56 to oppose Aurora B	reduced protein dose (null allele + destabilised missense)	increase	not_applicable	16411201;36441015
+AURKB	error correction (CPC)	destabilises erroneous kinetochore-microtubule attachments; counterbalanced by PP2A-B56	relatively unopposed because PP2A-B56 recruitment is reduced	decrease	decrease	41930946;36441015
+PLK1	SAC signal	phosphorylates the BubR1 KARD (S676) which enables PP2A-B56 recruitment	required for whatever KARD function remains	increase_or_neutral	decrease	39516273;33248027
+TTK	SAC signal	activates the spindle assembly checkpoint	intact	increase_or_neutral	decrease	40216293;28759042
+AURKA	spindle pole	centrosome maturation and spindle assembly	intact	neutral	decrease	40216293
+BIRC5	error correction (CPC)	targets the CPC and Aurora B to centromeres	relatively unopposed via Aurora B	decrease	decrease	40216293
+CDC20	MCC component and APC/C activator	activates APC/C; is itself a component of the inhibitory MCC	prematurely activated because MCC inhibition is leaky	decrease	not_applicable	40216293
+TRIP13	SAC silencing	recycles MAD2 to replenish the O-Mad2 pool	intact	increase_or_neutral	decrease	40216293
+MAD2L1	SAC signal	MCC component	intact	increase_or_neutral	decrease	40216293
+BUB3	SAC signal	MCC component; binds BubR1 GLEBS	intact	increase_or_neutral	decrease	40216293
+MAD1L1	SAC signal	MCC assembly platform at unattached kinetochores	intact	increase_or_neutral	decrease	40216293

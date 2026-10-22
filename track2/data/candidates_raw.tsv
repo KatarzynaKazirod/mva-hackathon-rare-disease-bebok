@@ -1,0 +1,50 @@
+target	drug_id	drug	drug_type	action_type	max_stage_drug	moa	withdrawn
+AURKA	CHEMBL1908397	KW-2449	Small molecule	INHIBITOR	PHASE_1	Serine/threonine-protein kinase Aurora-A inhibitor	False
+AURKA	CHEMBL1967878	CENISERTIB	Small molecule	INHIBITOR	PHASE_1	Serine/threonine-protein kinase Aurora inhibitor	False
+AURKA	CHEMBL1980297	ILORASERTIB	Small molecule	INHIBITOR	PHASE_2	Serine/threonine-protein kinase Aurora inhibitor	False
+AURKA	CHEMBL1980391	RG-1530	Small molecule	INHIBITOR	PHASE_1	Serine/threonine-protein kinase Aurora-A inhibitor	False
+AURKA	CHEMBL2140408	AMG-900	Small molecule	INHIBITOR	PHASE_1	Serine/threonine-protein kinase Aurora inhibitor	False
+AURKA	CHEMBL259084	MLN-8054	Small molecule	INHIBITOR	PHASE_1	Serine/threonine-protein kinase Aurora-A inhibitor	False
+AURKA	CHEMBL3545327	TTP-607	Unknown	INHIBITOR	PHASE_1	Serine/threonine-protein kinase Aurora inhibitor	False
+AURKA	CHEMBL3545378	MK-6592	Small molecule	INHIBITOR	PHASE_1	Serine/threonine-protein kinase Aurora inhibitor	False
+AURKA	CHEMBL3600873	MK-5108	Small molecule	INHIBITOR	PHASE_1	Serine/threonine-protein kinase Aurora-A inhibitor	False
+AURKA	CHEMBL3692206	TAS-119	Small molecule	INHIBITOR	PHASE_1	Serine/threonine-protein kinase Aurora-A inhibitor	False
+AURKA	CHEMBL402548	DANUSERTIB	Small molecule	INHIBITOR	PHASE_2	Serine/threonine-protein kinase Aurora inhibitor	False
+AURKA	CHEMBL4289017	PF-03814735	Small molecule	INHIBITOR	PHASE_1	Serine/threonine-protein kinase Aurora-A inhibitor	False
+AURKA	CHEMBL482767	SNS-314	Small molecule	INHIBITOR	PHASE_1	Serine/threonine-protein kinase Aurora inhibitor	False
+AURKA	CHEMBL482967	CYC-116	Small molecule	INHIBITOR	PHASE_1	Serine/threonine-protein kinase Aurora inhibitor	False
+AURKA	CHEMBL482968	ENMD-2076	Small molecule	INHIBITOR	PHASE_2	Serine/threonine-protein kinase Aurora-A inhibitor	False
+AURKA	CHEMBL483158	ALISERTIB	Small molecule	INHIBITOR	PHASE_3	Serine/threonine-protein kinase Aurora-A inhibitor	False
+AURKA	CHEMBL495727	AT-9283	Small molecule	INHIBITOR	PHASE_3	Serine/threonine-protein kinase Aurora-A inhibitor	False
+AURKA	CHEMBL52885	ENMD-981693	Small molecule	INHIBITOR	PHASE_2	Serine/threonine-protein kinase Aurora-A inhibitor	False
+AURKA	CHEMBL572878	TOZASERTIB	Small molecule	INHIBITOR	PHASE_2	Serine/threonine-protein kinase Aurora inhibitor	False
+AURKB	CHEMBL1090479	GSK-1070916	Small molecule	INHIBITOR	PHASE_1	Serine/threonine-protein kinase Aurora-B inhibitor	False
+AURKB	CHEMBL1908397	KW-2449	Small molecule	INHIBITOR	PHASE_1	Serine/threonine-protein kinase Aurora-B inhibitor	False
+AURKB	CHEMBL1967878	CENISERTIB	Small molecule	INHIBITOR	PHASE_1	Serine/threonine-protein kinase Aurora inhibitor	False
+AURKB	CHEMBL1980297	ILORASERTIB	Small molecule	INHIBITOR	PHASE_2	Serine/threonine-protein kinase Aurora inhibitor	False
+AURKB	CHEMBL2140408	AMG-900	Small molecule	INHIBITOR	PHASE_1	Serine/threonine-protein kinase Aurora inhibitor	False
+AURKB	CHEMBL3544932	TAK-901	Small molecule	INHIBITOR	PHASE_1	Serine/threonine-protein kinase Aurora-B inhibitor	False
+AURKB	CHEMBL3545327	TTP-607	Unknown	INHIBITOR	PHASE_1	Serine/threonine-protein kinase Aurora inhibitor	False
+AURKB	CHEMBL3545378	MK-6592	Small molecule	INHIBITOR	PHASE_1	Serine/threonine-protein kinase Aurora inhibitor	False
+AURKB	CHEMBL3545395	BI-811283	Unknown	INHIBITOR	PHASE_2	Serine/threonine-protein kinase Aurora-B inhibitor	False
+AURKB	CHEMBL402548	DANUSERTIB	Small molecule	INHIBITOR	PHASE_2	Serine/threonine-protein kinase Aurora inhibitor	False
+AURKB	CHEMBL415049	BARASERTIB	Small molecule	INHIBITOR	PHASE_2_3	Serine/threonine-protein kinase Aurora-B inhibitor	False
+AURKB	CHEMBL4289017	PF-03814735	Small molecule	INHIBITOR	PHASE_1	Serine/threonine-protein kinase Aurora-B inhibitor	False
+AURKB	CHEMBL482767	SNS-314	Small molecule	INHIBITOR	PHASE_1	Serine/threonine-protein kinase Aurora inhibitor	False
+AURKB	CHEMBL482967	CYC-116	Small molecule	INHIBITOR	PHASE_1	Serine/threonine-protein kinase Aurora inhibitor	False
+AURKB	CHEMBL482968	ENMD-2076	Small molecule	INHIBITOR	PHASE_2	Serine/threonine-protein kinase Aurora-B inhibitor	False
+AURKB	CHEMBL495727	AT-9283	Small molecule	INHIBITOR	PHASE_3	Serine/threonine-protein kinase Aurora-B inhibitor	False
+AURKB	CHEMBL5095033	IBCASERTIB	Small molecule	INHIBITOR	PHASE_3	Serine/threonine-protein kinase Aurora-B inhibitor	False
+AURKB	CHEMBL572878	TOZASERTIB	Small molecule	INHIBITOR	PHASE_2	Serine/threonine-protein kinase Aurora inhibitor	False
+BIRC5	CHEMBL2219774	GATAPARSEN	Oligonucleotide	ANTISENSE INHIBITOR	PHASE_2	Survivin mRNA antisense inhibitor	False
+BIRC5	CHEMBL4650424	SVN53-67/M57-KLH PEPTIDE VACCINE	Vaccine component	VACCINE ANTIGEN	PHASE_2	Baculoviral IAP repeat-containing protein 5 vaccine antigen	False
+PLK1	CHEMBL1233528	VOLASERTIB	Small molecule	INHIBITOR	PHASE_3	Serine/threonine-protein kinase PLK1 inhibitor	False
+PLK1	CHEMBL1738758	ONVANSERTIB	Small molecule	INHIBITOR	PHASE_2	Serine/threonine-protein kinase PLK1 inhibitor	False
+PLK1	CHEMBL1908394	GSK-461364	Small molecule	INHIBITOR	PHASE_1	Serine/threonine-protein kinase PLK1 inhibitor	False
+PLK1	CHEMBL2392545	TAK-960	Small molecule	INHIBITOR	PHASE_1	Serine/threonine-protein kinase PLK1 inhibitor	False
+PLK1	CHEMBL3545354	CAFUSERTIB	Unknown	INHIBITOR	PHASE_1	Serine/threonine-protein kinase PLK1 inhibitor	False
+PLK1	CHEMBL3991927	HMN-214	Small molecule	INHIBITOR	PHASE_1	Serine/threonine-protein kinase PLK1 inhibitor	False
+PLK1	CHEMBL513909	BI-2536	Small molecule	INHIBITOR	PHASE_2	Serine/threonine-protein kinase PLK1 inhibitor	False
+PLK1	CHEMBL5314387	MK-1496	Small molecule	INHIBITOR	PHASE_1	Serine/threonine-protein kinase PLK1 inhibitor	False
+TTK	CHEMBL4303241	BAY-1161909	Small molecule	INHIBITOR	PHASE_1	Dual specificity protein kinase TTK inhibitor	False
+TTK	CHEMBL4456085	BAY-1217389	Small molecule	INHIBITOR	PHASE_1	Dual specificity protein kinase TTK inhibitor	False

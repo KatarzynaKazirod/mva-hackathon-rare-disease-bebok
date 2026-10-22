@@ -1,0 +1,12 @@
+gene	ensembl	association_score	on_mva_checklist	mva_subtype	n_drugs	n_approved	approved_drugs	annotation_caveat
+BUB1B	ENSG00000156970	0.865	yes	MVA1	0	0	none	
+CEP57	ENSG00000166037	0.818	yes	MVA2	0	0	none	
+TRIP13	ENSG00000071539	0.747	yes	MVA3	0	0	none	
+SLF2	ENSG00000119906	0.711	yes	Atelis syndrome 1	0	0	none	
+SMC5	ENSG00000198887	0.695	yes	Atelis syndrome	0	0	none	
+MAD1L1	ENSG00000002822	0.57	yes	MVA7	0	0	none	
+PAK6	ENSG00000137843	0.515	no		0	0	none	locus overlaps BUB1B (chr15)
+CENATAC	ENSG00000186166	0.429	yes	MVA	0	0	none	
+RPS25	ENSG00000118181	0.416	no		5	1	ATALUREN	locus overlaps CENATAC (chr11)
+BUB1	ENSG00000169679	0.37	yes	MVA	0	0	none	
+BUB3	ENSG00000154473	0.37	yes	MVA	0	0	none	

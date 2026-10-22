@@ -1,0 +1,16 @@
+action_type	effect_on_target_function	note
+INHIBITOR	decrease	reduces activity of the named target
+ANTISENSE INHIBITOR	decrease	reduces the amount of target protein made
+DEGRADER	decrease	removes target protein
+NEGATIVE ALLOSTERIC MODULATOR	decrease	reduces activity allosterically
+ANTAGONIST	decrease	blocks target signalling
+BLOCKER	decrease	blocks target function
+AGONIST	increase	raises target signalling
+POSITIVE ALLOSTERIC MODULATOR	increase	raises activity allosterically
+ACTIVATOR	increase	raises target activity
+OPENER	increase	raises channel conductance
+VACCINE ANTIGEN	increase	raises immune response against cells presenting the target
+STABILISER	increase	preserves target protein
+MODULATOR	unknown	direction not inferable from the action type alone
+OTHER	unknown	direction not inferable from the action type alone
+UNKNOWN	unknown	direction not inferable from the action type alone

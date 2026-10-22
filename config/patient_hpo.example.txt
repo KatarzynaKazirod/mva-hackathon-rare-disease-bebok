@@ -1,0 +1,53 @@
+# TEMPLATE - copy to config/patient_hpo.txt and replace the contents.
+#
+#   cp config/patient_hpo.example.txt config/patient_hpo.txt
+#   $EDITOR config/patient_hpo.txt
+#
+# WHERE THE CONTENT COMES FROM
+# The proband's clinical features are supplied with the gated Hugging Face dataset as
+# Challenge_Clinical_Phenotype_1.docx, a narrative description with a table of phenotypic
+# features. Transcribe that table here, one term per line, as:
+#
+#   HPO ID <TAB> HPO Term
+#
+# This file is the ONLY route by which the phenotype enters the pipeline. Nothing else in
+# the repository reads the .docx, so whatever is written here IS the phenotype as far as
+# every downstream step is concerned.
+#
+# FORMAT
+#   - one HPO id per line; two ids on one line is a hard error, not a warning
+#   - the id may sit in either column, so a row pasted straight out of the clinical table
+#     works as "HP:0000252<TAB>Microcephaly" or as "Microcephaly, HP:0000252"
+#   - text around the id is kept as a LABEL and cross-checked against the ontology
+#   - '#' comments out the rest of a line
+#   - obsolete ids and alt_ids are resolved automatically
+#   - a term outside the "Phenotypic abnormality" subtree (inheritance, clinical course,
+#     modifiers) is reported and skipped rather than silently dropped
+#
+# WRITE THE TERM NAME AS WELL AS THE ID, even though the id is what gets used. The name is
+# compared against what HPO calls that id, and a mismatch is reported. A correct name next
+# to a mistyped id is the transcription error that silently rebuilds the whole panel around
+# the wrong phenotype, and the label check is the only thing that catches it.
+#
+# FEATURES BELONGING TO A RELATIVE DO NOT GO HERE
+# Every term in this file is scored as a feature of the CHILD. A mother's recurrent
+# pregnancy loss entered here would make the ranking search for diseases in which the
+# affected individual miscarries. Comment such a term out here and record it in
+# config/family_history.txt, which no script reads - it is a note to whoever comes next, so
+# that a term held out of the scoring is visibly set aside rather than apparently forgotten.
+#
+# NOT FOR COMMITTING
+# config/patient_hpo.txt is git-ignored (.gitignore line 35) because it is the child's
+# clinical description. This template is tracked; the filled-in file must not be. What goes
+# into git instead is results/panel.stamp.json, which carries a SHA-256 of the sorted term
+# list - enough for anyone holding the real terms to verify that the panel was built from
+# them, and not enough to reconstruct a single feature.
+#
+# ---------------------------------------------------------------------------------------
+# Examples of the expected form. All are COMMENTED OUT on purpose: copying this file
+# without editing it leaves no active terms, and build_panel.py then stops with
+# "has no terms in it" instead of ranking genes against a phenotype nobody has.
+#
+# HP:0000252	Microcephaly
+# HP:0001250	Seizure
+# HP:0000365	Hearing impairment
