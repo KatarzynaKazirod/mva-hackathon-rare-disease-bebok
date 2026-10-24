@@ -22,9 +22,6 @@ uv sync                           # dependencies
 brew install bcftools             # macOS; required by the annotation step
 ```
 
-Pipeline scripts carry PEP 723 inline metadata, so `./src/<script>.py` resolves its own
-dependencies; `uv run src/<script>.py` is equivalent.
-
 Track 2 needs none of this: its scripts are standard-library only and run under plain
 `python3`.
 
